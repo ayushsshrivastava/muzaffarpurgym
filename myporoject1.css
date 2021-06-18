@@ -1,0 +1,107 @@
+body{
+   
+    margin: 0px;
+    padding: 0px;
+    background: url('abs1.jpg.jpg');
+    height: 1200px ;
+    image-resolution: fixed;
+    
+
+}
+.header{
+       color: white;
+      
+}
+
+.left{
+    position: absolute;
+    left: 28px;
+    top: 10px;
+     
+     display: inline-block;
+
+}
+.left img{
+    width: 125px;
+    filter: invert(100%);
+}
+.left div{
+    line-height: 12px;
+    font-size: 22px;
+    text-align: left;
+    left: 5px;
+
+
+}
+
+.mid{
+    display: block;width: 33%;
+    margin: 20px auto;
+    
+
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 32px;
+    display: inline-block;
+}
+.btn{
+    margin: opx 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    
+    border-radius: 12px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: grey;
+}
+
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+    display: inline;
+    
+
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 14px 10px;
+}
+
+.navbar li a:hover,.navbar li a:active{
+  text-decoration: underline;
+  color: gray;
+}
+.container{
+    border: 2px solid white;
+    color: white;
+    font-size: 9px;
+    text-align: center;
+    margin: 70px 40px;
+    padding:  30px;
+    border-radius:15px ;
+    width: 27%;
+    
+}
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 300px;
+      margin: 11px auto;
+      padding: 1px;
+      border: 2px soolid black;
+     border-radius: 12px;
+}
+.container button{
+    width: 82%;
+    margin: 20px auto;
+
+}
